@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "696577259513",
+    "firebase_url": "https://octopus-betting-tips.firebaseio.com",
+    "project_id": "octopus-betting-tips",
+    "storage_bucket": "octopus-betting-tips.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:696577259513:android:61a949d50f1d2802",
+        "android_client_info": {
+          "package_name": "com.hamsempire.octopusbettingtips"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "696577259513-mj9bbuap9v4bn3jtflcnhucp59bvlf2h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYl-hoLitAXqdnu_vFrmhUUDC0PkCp7rw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

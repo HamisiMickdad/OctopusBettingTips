@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto">
+   <!-- <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        ads:adSize="BANNER"
+        android:background="@color/colorPrimary"
+        ads:adUnitId="@string/banner_ad">
+    </com.google.android.gms.ads.AdView>-->
+
+    <RelativeLayout
+        android:id="@+id/native_banner_ad_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimary"
+        />
+
+    <TextView
+        android:id="@+id/jp"
+        android:layout_below="@+id/native_banner_ad_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Loading..." />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/native_banner_ad_container"
+
+        />
+
+
+
+</RelativeLayout>

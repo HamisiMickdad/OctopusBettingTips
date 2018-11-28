@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hamsempire.octopusbettingtips.JoinVip">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="HOW TO JOIN VIP ?"
+        android:id="@+id/header"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:id="@+id/txtLine"
+        android:layout_below="@id/header"
+        android:layout_marginEnd="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginStart="10dp"
+        android:background="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/txtBodv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtLine"
+        android:layout_margin="10dp"
+        android:lineSpacingExtra="6sp"
+        android:text="How our vip works:
+
+\n*Daily Tips - Min odd 2.5 to Max odd 4.5 (wins at least 6 days a week but mostly wins 7 out of 7 days).
+
+\n*Daily Tips - High odd bet slips odd 10+ daily (Wins at least 5 days a week or more).
+
+\n*Weekly Tips - Half Time / Full Time Tips mostly available on weekends.
+
+\n*Weekly Tips - Jackpot and Mega Jackpot tips which brings you bonuses.
+
+\n*Monthly Tips - Fixed Matches too are posted when received from our trusted sources.
+
+\nAfter Payment you will be immediately added to the vip channel on telegram where you will have acces to the sure vip tips.
+
+
+\n\nPayment methods.
+
+\nM-Pesa : +254705833259
+
+\nSkrill :  hamisimickdad@gmail.com
+
+\nNeteller : martinmusoka254@gmail.com
+
+\nPayPal : hamisimickdad@gmail.com
+
+\nBitcoins : 1Jw7Rp2rGHMtXWVGim5pPZoSboLMUEVSn7
+
+
+
+\n\nPayment amount 20€(20 Euros) 0r 25$(25 US Dollars) Convert this to your local currencies. per month.
+
+\nDuration 1 Month
+
+
+\n\nFor any queries Contact +254740696208 "
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textIsSelectable="true"
+        android:textSize="18sp"
+        android:typeface="sans" />
+
+</RelativeLayout>

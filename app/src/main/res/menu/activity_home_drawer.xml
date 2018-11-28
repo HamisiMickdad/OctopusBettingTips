@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_sportpesa"
+            android:title="Daily Super Tips" />
+    </group>
+    <item android:title="More Winning Tips">
+        <menu>
+        <item
+            android:id="@+id/nav_bet9ja"
+            android:title="Sure Daily 2+" />
+        <item
+            android:id="@+id/nav_betin"
+            android:title="Free Jackpot Tips" />
+        <item
+            android:id="@+id/nav_joinvip"
+            android:title="Join VIP Now" />
+       <!-- <item
+            android:id="@+id/nav_betway"
+            android:icon="@drawable/ic_action_vip"
+            android:title="VIP Archive" />-->
+        </menu>
+    </item>
+
+    <item android:title="More of Octopus Tips">
+        <menu>
+            <item
+                android:id="@+id/nav_telegram"
+                android:title="Telegram Channel" />
+
+            <item
+                android:id="@+id/nav_livescore"
+                android:title="Live Scores"
+                />
+        </menu>
+    </item>
+
+
+</menu>
